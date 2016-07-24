@@ -1,0 +1,147 @@
+
+html {
+	max-width:1035px;
+    height: 100%; //позволит растянуть сайт на 100% высоты
+}
+body {
+    height: 98%; //позволит растянуть сайт на 100% высоты
+}
+
+
+.main_conteiner_begin{
+	max-width: 100%;
+	min-height:100%;
+	border:1px solid gray ;
+	background-image: url(/images/mac.jpg);
+	height:100%;
+	margin: 0 auto; 
+	border-radius:5px;
+	box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.6);	
+} 
+
+.main_conteiner{
+	max-width: 100%;
+	min-height:100%;
+
+	background-image: none;
+	height:100%;
+	margin: 0 auto; 
+	/*border:1px solid gray ;
+	border-radius:5px;
+	box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.6);	
+	*/
+} 
+
+
+
+.modal_form {
+    width: 90%; 
+    height: 90%; /* Рaзмеры дoлжны быть фиксирoвaны */
+    border-radius: 5px;
+    border: 1px #AAA solid;
+    background: #fff;
+    position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	left:3%;
+	top:3%;
+    z-index: 10; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+
+    color:black;
+}
+
+
+
+
+/*____________________________________________WORKSPACE___________________________________________________________________________________*/
+
+.top_bar{
+	position:static;
+	top:0;
+	left:0;
+	width:180px;
+	height:50px;
+	border:2px solid gray;
+	z-index:10;
+	clear: both;
+
+}
+
+
+/*_________________________________Buttons_____________________________*/
+
+#add_new_butt{
+		float:left;
+		width:30px;
+		height:30px;
+		background-image:url(/images/add.png);
+		margin-left:5px;
+		margin-top:10px;
+		cursor:pointer;
+}
+
+#cat_butt{
+		float:left;
+		width:30px;
+		height:30px;
+		background-image:url(/images/folder.png);
+		margin-left:25px;
+		margin-top:10px;
+		cursor:pointer;		
+}
+
+#favorite_butt{
+		float:left;
+		width:30px;
+		height:30px;
+		background-image:url(/images/fav.png);
+		margin-left:5px;
+		margin-top:10px;
+		cursor:pointer;
+}
+
+#search_butt{
+		float:left;
+		width:30px;
+		height:30px;
+		background-image:url(/images/search.png);
+		margin-left:5px;
+		margin-top:10px;
+		cursor:pointer;
+}
+
+
+#exit{
+	
+	
+}
+
+/*++++++++++++++++++++++++++++++BUTTOBS+++++++++++++++++++++++++++++++++*/
+
+
+
+/*____________________________________________END_WORKSPACE_______________________________________________________________________________*/
+
+
+/*_________________________________________NOTE______________________________________*/
+
+.memo{
+	z-index:1;
+	width: 300px;
+	height: 150px;
+	background: none; 
+	position: fixed;
+	clear: both;
+	border:1px solid green;
+	border-radius:4px;
+	}
+
+.top_memo{
+	position:static;
+	margin-top:0px;
+	margin-left:0px;
+	border-bottom:1px solid green;
+	height:25px;
+}
+
+
+
+/*_____________________________________END_NOTE__________________________________________*/
